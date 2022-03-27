@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why No CSS?</title>
+  </head>
+  <body>
+    <h2>Tamal Web's No CSS Site 👋</h2>
+    <nav>
+      <hr />
+      <a href="/">Home</a> — <a href="/why-nocss">Why No CSS?</a> —
+      <a href="/projects">Projects</a> — <a href="/articles">Articles</a>
+      <hr />
+    </nav>
+    <h1>Why No CSS?</h1>
+    <p>I was going through Twitter and found a tweet about No CSS.</p>
+    <blockquote class="twitter-tweet">
+      <p lang="en" dir="ltr">
+        People are always debating between Bootstrap and Tailwind for CSS...<br /><br />But
+        have you tried No CSS?
+        <a href="https://t.co/Yyg4ilECXK">pic.twitter.com/Yyg4ilECXK</a>
+      </p>
+      &mdash; Sid Palas (@sidpalas)
+      <a
+        href="https://twitter.com/sidpalas/status/1507759383907745795?ref_src=twsrc%5Etfw"
+        >March 26, 2022</a
+      >
+    </blockquote>
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <b>
+      ^this is the only thing in this website with CSS (loaded from Twitter)
+    </b>
+    <p>Having a restriction can help us be creative.</p>
+    <p>
+      Since I can't write any external or inline CSS,<br />
+      I have to rely on default browser styles.
+    </p>
+    <p>
+      Font changes are not an option since you have to control that with CSS.
+    </p>
+    <p>I'm missing my favorite Arial font:</p>
+    <pre>    body { font-family: Arial, sans-serif; } </pre>
+    <p>
+      Working with just the vanilla HTML can actually teach you<br />
+      about the default browser styles.
+    </p>
+    <p>Notice, I am keeping my paragraphs short?</p>
+    <p>I don't want my text to span all across the wide screen.</p>
+    <p>Speaking of screens, <b>@media</b> queries are not possible.</p>
+    <p>What I build has to be optimized for both mobile and desktop.</p>
+    <p>
+      Browser adds a default margin of 8px in <code>body</code>,<br />
+      so the text doesn't touch the side of the screen.
+    </p>
+  </body>
+</html>
